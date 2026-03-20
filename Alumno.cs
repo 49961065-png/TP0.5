@@ -15,7 +15,16 @@ class Alumno
    this.cantidadfaltas = cantidadfaltas;
    }
 
-   
+   public int getDNI() {
+
+      return this.DNI;
+
+   }
+   public double getFaltas() {
+
+      return this.faltas;
+
+   }
 
 
 }

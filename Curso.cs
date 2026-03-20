@@ -26,15 +26,17 @@ class Curso
 public Alumno buscarAlumnoxdni(int DNI)
 {
 
-     int i = 0;
+    int i = 0;
     Alumno encontrado = null;
-    while (i < this.alumnos.Count && !this.alumnos[i].esMismoNombre(nombre))
+    while (i < this.alumnos.Count && DNI != alumnos[i].getDNI()) {
+
         i++;
-    if (i < this.alumnos.Count)
-        encontrado = this.alumnos[i];
+
+    }
+    encontrado = alumnos[i];
     return encontrado;
 }
-public int faltas(int alumnos)
+public int faltas()
 {
 
 
@@ -43,22 +45,50 @@ int mediafalta = 0;
 bool faltotodoeldia;
 bool faltosolounturno;
 
-if(faltotodoeldia = true)
+if(faltotodoeldia)
 {
   faltacompleta++;
 }
-else if(faltosolounturno == true)
+else if(faltosolounturno)
 {
-   mediafalta++
-   mediafalta + mediafalta = faltacompleta
+   mediafalta++;
+   mediafalta + mediafalta = faltacompleta;
 }
 
 else
 {
-   mediafalta == false;
-   faltacompleta == false;
+   mediafalta = false;
+   faltacompleta = false;
 }
 return faltas;
+}
+public string mostrarAlumnos() {
+
+    string msg = "";
+    for (int i = 0; i < alumnos.Count; i++) {
+
+        msg += alumnos[i] + ", \n";
+
+    }
+    return msg;
+
+}
+
+public string AlumnosLibres() {
+
+
+string msg = "";
+for(int i=0; i < alumnos.Count; i++) {
+
+    if (alumnos[i].getFaltas() > 15) {
+
+        msg += alumnos[i] + ", \n";
+
+    }
+}
+
+
+
 }
    
 

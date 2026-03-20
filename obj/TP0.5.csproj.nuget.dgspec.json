@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\TP0.5\\TP0.5.csproj": {}
+    "C:\\Users\\49961065\\TP0.5\\TP0.5.csproj": {}
   },
   "projects": {
-    "Z:\\TP0.5\\TP0.5.csproj": {
+    "C:\\Users\\49961065\\TP0.5\\TP0.5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\TP0.5\\TP0.5.csproj",
+        "projectUniqueName": "C:\\Users\\49961065\\TP0.5\\TP0.5.csproj",
         "projectName": "TP0.5",
-        "projectPath": "Z:\\TP0.5\\TP0.5.csproj",
-        "packagesPath": "C:\\Users\\50233807\\.nuget\\packages\\",
-        "outputPath": "Z:\\TP0.5\\obj\\",
+        "projectPath": "C:\\Users\\49961065\\TP0.5\\TP0.5.csproj",
+        "packagesPath": "C:\\Users\\49961065\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\49961065\\TP0.5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\50233807\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49961065\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

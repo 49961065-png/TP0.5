@@ -1,0 +1,5 @@
+C:\Users\49961065\TP0.5\obj\Debug\net9.0\TP0.5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49961065\TP0.5\obj\Debug\net9.0\TP0.5.AssemblyInfoInputs.cache
+C:\Users\49961065\TP0.5\obj\Debug\net9.0\TP0.5.AssemblyInfo.cs
+C:\Users\49961065\TP0.5\obj\Debug\net9.0\TP0.5.csproj.CoreCompileInputs.cache
+C:\Users\49961065\TP0.5\obj\Debug\net9.0\TP0.5.sourcelink.json
