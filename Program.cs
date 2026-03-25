@@ -11,7 +11,7 @@ int opcion;
 do
 {
 Console.Clear();
-Console.WriteLine("=== MENU ===");
+Console.WriteLine( "MENU");
 Console.WriteLine("1 - Agregar nuevo alumno");
 Console.WriteLine("2 - Buscar alumno por DNI");
 Console.WriteLine("3 - Agregar falta o media falta");
@@ -45,11 +45,11 @@ mostrarAlumnosLibres(curso);
 break;
 
 case 6:
-Console.WriteLine("Saliendo...");
+Console.WriteLine("chau");
 break;
 }
 
-Console.WriteLine("Presione una tecla para continuar...");
+Console.WriteLine("Presione una tecla para continuar");
 Console.ReadKey();
 
 } while (opcion != 6);
